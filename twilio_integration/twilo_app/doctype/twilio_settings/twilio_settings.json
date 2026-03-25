@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-02-21 00:40:00.579342",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "auth_token",
+  "from_number",
+  "account_sid",
+  "ngrok_url"
+ ],
+ "fields": [
+  {
+   "fieldname": "auth_token",
+   "fieldtype": "Password",
+   "label": "Auth Token"
+  },
+  {
+   "fieldname": "from_number",
+   "fieldtype": "Data",
+   "label": "From Number"
+  },
+  {
+   "fieldname": "account_sid",
+   "fieldtype": "Data",
+   "label": "Account SID"
+  },
+  {
+   "fieldname": "ngrok_url",
+   "fieldtype": "Data",
+   "label": "Ngrok URL"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-03-05 11:19:14.600043",
+ "modified_by": "Administrator",
+ "module": "twilo_app",
+ "name": "Twilio Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
